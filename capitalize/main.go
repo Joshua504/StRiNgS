@@ -15,7 +15,7 @@ func capitalize(s string) string {
 	r := []string{}
 
 	for _, c := range split {
-		r = append(r, cap(c))
+		r = append(r, capIII(c))
 	}
 	return strings.Join(r, " ")
 }
