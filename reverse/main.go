@@ -4,7 +4,7 @@ import "fmt"
 
 
 func main(){
-	fmt.Println(reverse("fail"))
+	fmt.Println(reverse("héllo"))
 }
 
 func reverse (s string) string{
