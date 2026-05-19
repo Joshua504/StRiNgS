@@ -20,7 +20,7 @@ func capitalize(s string) string {
 	return strings.Join(r, " ")
 }
 
-func cap(s string) string {
+func caps(s string) string {
 	fChar := strings.ToUpper(string(s[0]))
 	rChar := strings.ToLower(s[1:])
 
@@ -39,7 +39,7 @@ func capII(s string) string {
 
 	return fChar + rChar
 }
-func capIII(s string)string{
+func capIII(s string) string {
 	fChar := ""
 	firstRuneSize := 0
 
